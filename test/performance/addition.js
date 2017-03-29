@@ -1,10 +1,10 @@
-suite('addition', () => {
+suite('addition', () => { // eslint-disable-line no-undef
 
-    benchmark('JavaScript (1 addition)', () => {
+    benchmark('JavaScript (1 addition)', () => { // eslint-disable-line no-undef
         this.values.map((value) => value + this.summand);
     }, {
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.summand = Math.random() - Math.round(Math.random());
@@ -20,13 +20,13 @@ suite('addition', () => {
         }
     });
 
-    benchmark('JavaScript (10 additons)', () => {
+    benchmark('JavaScript (10 additons)', () => { // eslint-disable-line no-undef
         for (let i = 0; i < 10; i += 1) {
             this.values.map((value) => value + this.summand);
         }
     }, {
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.summand = Math.random() - Math.round(Math.random());
@@ -42,7 +42,7 @@ suite('addition', () => {
         }
     });
 
-    benchmark('Web Audio API (1 addition)', (deferred) => {
+    benchmark('Web Audio API (1 addition)', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
 
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
@@ -72,7 +72,7 @@ suite('addition', () => {
     }, {
         defer: true,
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.summand = Math.random() - Math.round(Math.random());
@@ -88,7 +88,7 @@ suite('addition', () => {
         }
     });
 
-    benchmark('Web Audio API (10 additions)', (deferred) => {
+    benchmark('Web Audio API (10 additions)', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
 
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
@@ -122,7 +122,7 @@ suite('addition', () => {
     }, {
         defer: true,
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.summand = Math.random() - Math.round(Math.random());

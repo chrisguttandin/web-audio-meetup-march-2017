@@ -1,6 +1,6 @@
-suite('irrFilter', () => {
+suite('irrFilter', () => { // eslint-disable-line no-undef
 
-    benchmark('JavaScript', () => {
+    benchmark('JavaScript', () => { // eslint-disable-line no-undef
         const results = [ this.values[0] * (this.feedforward[0] * this.feedback[0]) ];
 
         for (let i = 1; i < this.values.length; i += 1) {
@@ -8,7 +8,7 @@ suite('irrFilter', () => {
         }
     }, {
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.feedback = new Float32Array([
@@ -32,7 +32,7 @@ suite('irrFilter', () => {
         }
     });
 
-    benchmark('Web Audio API', (deferred) => {
+    benchmark('Web Audio API', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
 
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
@@ -56,7 +56,7 @@ suite('irrFilter', () => {
     }, {
         defer: true,
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.feedback = new Float32Array([

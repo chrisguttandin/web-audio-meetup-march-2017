@@ -1,10 +1,10 @@
-suite('division', () => {
+suite('division', () => { // eslint-disable-line no-undef
 
-    benchmark('JavaScript (1 division)', () => {
+    benchmark('JavaScript (1 division)', () => { // eslint-disable-line no-undef
         this.values.map((value) => value / this.divisor);
     }, {
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.divisor = Math.random() - Math.round(Math.random());
@@ -20,13 +20,13 @@ suite('division', () => {
         }
     });
 
-    benchmark('JavaScript (10 divisions)', () => {
+    benchmark('JavaScript (10 divisions)', () => { // eslint-disable-line no-undef
         for (let i = 0; i < 10; i += 1) {
             this.values.map((value) => value / this.divisor);
         }
     }, {
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.divisor = Math.random() - Math.round(Math.random());
@@ -42,7 +42,7 @@ suite('division', () => {
         }
     });
 
-    benchmark('Web Audio API (1 division)', (deferred) => {
+    benchmark('Web Audio API (1 division)', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
 
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
@@ -68,7 +68,7 @@ suite('division', () => {
     }, {
         defer: true,
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.divisor = Math.random() - Math.round(Math.random());
@@ -84,7 +84,7 @@ suite('division', () => {
         }
     });
 
-    benchmark('Web Audio API (10 divisions)', (deferred) => {
+    benchmark('Web Audio API (10 divisions)', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
 
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
@@ -118,7 +118,7 @@ suite('division', () => {
     }, {
         defer: true,
         setup: () => {
-            const length = 5000000; // five million
+            const length = 5000000;
 
             // Generate values between 0 and 1.
             this.divisor = Math.random() - Math.round(Math.random());
