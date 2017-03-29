@@ -1,0 +1,10 @@
+<h2>Addition (WAA)</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->//...
+const constantSource = new ConstantSourceNode(audioContext, &#123;
+    offset: 0.3
+&#125;);
+constantSource.start(0);
+
+valuesBufferSource.connect(audioContext.destination);
+constantSource.connect(audioContext.destination);
+//...<!-- htmlmin:ignore --></wam-prism>

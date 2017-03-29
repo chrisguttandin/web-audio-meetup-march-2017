@@ -1,0 +1,9 @@
+{
+    "extends": "tslint-config-holy-grail",
+    "rules": {
+        "component-selector": [ true, "element", "wam", "kebab-case" ],
+        "directive-selector": [ true, "attribute", "wam", "camelCase" ],
+        "import-blacklist": false,
+        "pipe-naming": [ true, "camelCase", "wam" ]
+    }
+}

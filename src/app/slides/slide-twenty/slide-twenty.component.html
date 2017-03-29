@@ -1,0 +1,14 @@
+<h2>Downmixing</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->const downmixContext = new OfflineAudioContext(
+    1,
+    audioBuffer.length,
+    audioBuffer.sampleRate
+);
+const bufferSource = new AudioBufferSourceNode(downmixContext, &#123;
+    buffer: audioBuffer
+&#125;);
+bufferSource.start(0);
+bufferSource.connect(downmixContext.destination);
+
+downmixContext.startRendering();
+// will resolve with the downmixed audioBuffer<!-- htmlmin:ignore --></wam-prism>

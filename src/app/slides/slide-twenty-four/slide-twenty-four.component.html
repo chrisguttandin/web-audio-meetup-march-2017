@@ -1,0 +1,11 @@
+<h2>Applying an IIR Filter (WAA)</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->//...
+const iirFilter = new IIRFilterNode(audioContext, &#123;
+    feedback: new Float32Array([ /* ... */ ]),
+    feedforward: new Float32Array([ /* ... */ ])
+&#125;);
+
+valuesBufferSource
+    .connect(iirFilter)
+    .connect(audioContext.destination);
+//...<!-- htmlmin:ignore --></wam-prism>
