@@ -1,0 +1,15 @@
+<h2>Subtraction (WAA)</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->//...
+const constantSource = new ConstantSourceNode(audioContext, &#123;
+    offset: 0.7
+&#125;);
+constantSource.start(0);
+const gain = new GainNode(audioContext, &#123;
+    gain: -1
+&#125;);
+
+valuesBufferSource.connect(audioContext.destination);
+constantSource
+    .connect(gain)
+    .connect(audioContext.destination);
+//...<!-- htmlmin:ignore --></wam-prism>

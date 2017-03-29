@@ -1,0 +1,11 @@
+<h2>Addition (WAA boilerplate, part 2)</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->// ...
+audioContext
+    .startRendering()
+    .then((renderedBuffer) => &#123;
+        const results = new Float32Array(values.length);
+
+        renderedBuffer.copyFromChannel(results, 0);
+
+        return results;
+    &#125;);<!-- htmlmin:ignore --></wam-prism>

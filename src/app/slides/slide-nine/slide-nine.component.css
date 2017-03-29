@@ -1,0 +1,17 @@
+td:first-of-type {
+    text-align: left;
+}
+
+td:nth-of-type(2),
+td:nth-of-type(3),
+th:nth-of-type(2),
+th:nth-of-type(3) {
+    padding: 0 0 0 1em;
+    text-align: right;
+}
+
+span {
+    display: block;
+    padding: 1em 0 0;
+    color: #777;
+}

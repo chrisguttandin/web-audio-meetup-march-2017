@@ -1,0 +1,10 @@
+<h2>Division (WAA)</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->//...
+const gain = new GainNode(audioContext, &#123;
+    gain: 1 / 0.2
+&#125;);
+
+valuesBufferSource
+    .connect(gain)
+    .connect(audioContext.destination);
+//...<!-- htmlmin:ignore --></wam-prism>

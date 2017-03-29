@@ -1,0 +1,14 @@
+<h2>Addition (WAA boilerplate, part 1)</h2>
+<wam-prism language="javascript"><!-- htmlmin:ignore -->const values = new Float32Array([ /* ... */ ]);
+const audioContext = new OfflineAudioContext(
+    1, values.length, anyValidSampleRate
+);
+const valuesBuffer = new AudioBuffer(audioContext, &#123;
+    length: values.length, sampleRate: audioContext.sampleRate
+&#125;);
+valuesBuffer.copyToChannel(values, 0);
+const valuesBufferSource = new AudioBufferSourceNode(audioContext, &#123;
+    buffer
+&#125;);
+valuesBufferSource.start(0);
+// ...<!-- htmlmin:ignore --></wam-prism>
