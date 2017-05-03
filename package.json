@@ -68,7 +68,7 @@
     "typescript": "~2.2.0",
     "webpack-bundle-analyzer": "^2.3.1"
   },
-  "homepage": "http://chrisguttandin.github.io/web-audio-meetup-march-2017",
+  "homepage": "https://chrisguttandin.github.io/web-audio-meetup-march-2017",
   "license": "MIT",
   "main": "src/index.html",
   "name": "web-audio-meetup-march-2017",
