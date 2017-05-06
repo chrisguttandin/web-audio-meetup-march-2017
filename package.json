@@ -44,7 +44,7 @@
     "husky": "^0.13.1",
     "jasmine": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
-    "karma": "~1.4.1",
+    "karma": "~1.7.0",
     "karma-benchmark": "^0.7.1",
     "karma-benchmark-json-reporter": "^1.0.0",
     "karma-benchmarkjs-reporter": "^1.0.0",
