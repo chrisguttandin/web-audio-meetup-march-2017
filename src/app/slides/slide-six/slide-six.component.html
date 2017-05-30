@@ -3,7 +3,7 @@
 const audioContext = new OfflineAudioContext(
     1, values.length, anyValidSampleRate
 );
-const valuesBuffer = new AudioBuffer(audioContext, &#123;
+const valuesBuffer = new AudioBuffer(&#123;
     length: values.length, sampleRate: audioContext.sampleRate
 &#125;);
 valuesBuffer.copyToChannel(values, 0);
