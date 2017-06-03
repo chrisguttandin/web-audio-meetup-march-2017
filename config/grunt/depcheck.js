@@ -14,6 +14,7 @@ module.exports = {
                 '@types/*',
                 'chai',
                 'eslint-config-holy-grail',
+                'greenkeeper-lockfile',
                 'grunt-*',
                 'husky',
                 'jasmine-core',
