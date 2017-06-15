@@ -44,7 +44,6 @@ suite('division', () => { // eslint-disable-line no-undef
 
     benchmark('Web Audio API (1 division)', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
-
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
         const valuesBufferSource = offlineAudioContext.createBufferSource();
 
@@ -86,7 +85,6 @@ suite('division', () => { // eslint-disable-line no-undef
 
     benchmark('Web Audio API (10 divisions)', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
-
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
         const valuesBufferSource = offlineAudioContext.createBufferSource();
 

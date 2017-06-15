@@ -34,7 +34,6 @@ suite('irrFilter', () => { // eslint-disable-line no-undef
 
     benchmark('Web Audio API', (deferred) => { // eslint-disable-line no-undef
         const offlineAudioContext = new OfflineAudioContext(1, this.values.length, 44100);
-
         const valuesBuffer = offlineAudioContext.createBuffer(1, offlineAudioContext.length, offlineAudioContext.sampleRate);
         const valuesBufferSource = offlineAudioContext.createBufferSource();
 
