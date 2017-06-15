@@ -13,6 +13,7 @@ module.exports = {
                 '@angular/language-service',
                 '@types/*',
                 'chai',
+                'chromedriver',
                 'eslint-config-holy-grail',
                 'greenkeeper-lockfile',
                 'grunt-*',
