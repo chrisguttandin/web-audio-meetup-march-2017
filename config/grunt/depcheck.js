@@ -12,6 +12,7 @@ module.exports = {
                 '@angular/compiler-cli',
                 '@angular/language-service',
                 '@types/*',
+                'axe-core',
                 'chai',
                 'chromedriver',
                 'eslint-config-holy-grail',
