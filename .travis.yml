@@ -1,7 +1,12 @@
+addons:
+  chrome: stable
 after_script: greenkeeper-lockfile-upload
-after_success: grunt deploy-on-version-updates
 before_install: npm install npm@latest --global
-before_script: greenkeeper-lockfile-update
+before_script:
+  - greenkeeper-lockfile-update
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+dist: trusty
 env:
   global:
   - secure: SOwVykFaOkHYKUA0HBPLEhRpPorLWoze+qju6xUXgz/rcVtxie5ETF2w1nnywuaZmrEmH/YkNdBTOwyXs5xPnE6N+qf6QoB2fPqbQS+zbjUBQ4cfhWOkj2NHUOliVtRjwcBLjezpYTLV8sIEeE31WZsnWXbAndlH9cSy5qv9iSuGB0zZ8sFfvZDkR4kdMSTvrOXrm3PUE+fPYYfZo9sWL7tW6Fc7YexXl/o+CvKYYH5NoQFhMEMjtmus0qDni9aSc1MnmLhkrdjBU2bZ4QFzoe4q+tIMrB/Q6jwhjK55b/w+jvoVrLqM/FAErcYG7Gd2HSIYgyQnCe4zjG7PYdVnUD1UKNkJSKH49zu3DwDM9XKPc+cd2DoppX/zEUfjmbOqNGWW7B93xd05qvtij1XPq6sxLGjeGZ5e8ZOauaVNKhO0+ocmBanRStsyB4b4QSHkbOV/HguYXPnioBZl5Fi+n9Xk16txNMR5xYGh2UZQLN062N5J5iBYOiMB9CCIY2dYVXDkT4rAaTNuSkvpJKLsUPEj0w0MPnmoAcB9sHzg94BxRGQHdnr9QO4ntMWEvHaqc1gBKwamQk4YjuIk7ToUyN1cQrwQO7YfuQP8xvwedkrV8uEU+ZWdGQHx5ccz7Q4W1l8BkAofXCWhrlL+vWj6L8FNaN2wSPIFPtMb8mMwmvU=
@@ -12,4 +17,7 @@ env:
   - secure: ltAv6pG0XZrTJUIP6A0RcpA7BgLGVO077OKwSu7U999zXRpDlD6yVj/st/LYm+GKOcz67/aOYlOqUIvEEECE3M7tZdcVvYwxjIuTZKcXOWWxKY2cKYPc7tw0uRvLAaRbShasfJRrhG3roL3bFDuIuT0bSGyv3ljzS7TWvvlJsZYLzKVIc8+aB6DOwgsK2RPKfwU7t5GraEMk+aQYWcM6s4dNFOPqIThvttvvWczcP1QScf+VhmmHcZuldoyvNEtt8wbLe2KuZvOHuLQy/9qH+1mqmS8S1Djr15iZXck96wtA7U5WpaBOMkxjSCXQiEK0JkctsnQ8soxReR5Dv1sMPxW2m7k3R/fOYflhB1cIFWlMaFCtI8ohTTNeHrWZz+qGxrDvlojL4NVOlpj+cFDfcIbZVD8Ve6uJe8syXhdw7/F/HgleWNc/UG6/xWexjJqmzUvmR4gyf02I4NwmT+j9o4eLY/KgBBPaHFheDPk8TUWzFSlv1Y7a8Dl/GrMBOmdcQNlZqMXnPJY1KE4ZrDOdH4y3TFUbR3Bwd3EQfZ0huF+lI2bbhbMJVcNBeEfvI73RRCBP9sbORRbAM7rPwA9DFyD2G6ypV1HnQdsd4OjzbemXMhIMoBU5hyjL1IJPR+tZMWBvcKhe1ggHUhy0PttFv/Zi23nY3NK3VXffpSNOzgg=
 language: node_js
 node_js: 8
+script:
+  - npm test
+  - grunt deploy-on-version-updates
 sudo: false
