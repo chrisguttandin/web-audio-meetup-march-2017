@@ -5,8 +5,6 @@ exports.config = {
 
     allScriptsTimeout: 11000,
 
-    baseUrl: 'http://localhost:7766/',
-
     capabilities: {
         browserName: 'chrome'
     },
