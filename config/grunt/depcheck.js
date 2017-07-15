@@ -24,6 +24,7 @@ module.exports = {
                 'mocha',
                 'sinon',
                 'sinon-chai',
+                'tslint',
                 'tslint-config-holy-grail',
                 'typescript',
                 'webpack-bundle-analyzer'
