@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import 'rxjs/add/operator/filter';
 
 @Component({
     changeDetection: ChangeDetectionStrategy.OnPush,
@@ -43,7 +44,8 @@ export class SlidesComponent implements OnDestroy, OnInit {
 
     public ngOnInit () {
         this._routerEventsSubscription = this._router.events
-            .subscribe(() => this._setIndex());
+            .filter((routerEvent) => (routerEvent instanceof NavigationEnd))
+            .subscribe(() => this._setIndexAndTransition());
 
         this._setIndex();
     }
