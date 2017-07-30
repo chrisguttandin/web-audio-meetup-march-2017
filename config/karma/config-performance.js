@@ -15,7 +15,7 @@ module.exports = (config) => {
         browserNoActivityTimeout: 1000000,
 
         browsers: [
-            'ChromeCanary',
+            'ChromeCanaryHeadless',
             'FirefoxDeveloper'
         ],
 
