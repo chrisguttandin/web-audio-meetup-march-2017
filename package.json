@@ -28,7 +28,7 @@
     "@types/prismjs": "^1.4.17",
     "axe-core": "^2.3.1",
     "bundle-buddy": "^0.1.2",
-    "chai": "^4.1.0",
+    "chai": "^4.1.1",
     "content-security-policy-builder": "^1.1.0",
     "eslint-config-holy-grail": "^19.0.1",
     "greenkeeper-lockfile": "^1.7.2",
