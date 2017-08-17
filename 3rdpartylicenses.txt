@@ -20,11 +20,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/core@4.3.4 MIT
+@angular/core@4.3.5 MIT
 
-@angular/router@4.3.4 MIT
+@angular/router@4.3.5 MIT
 
-@angular/animations@4.3.4 MIT
+@angular/animations@4.3.5 MIT
 
 prismjs@1.6.0 MIT
 MIT LICENSE
@@ -100,7 +100,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/platform-browser@4.3.4 MIT
+@angular/platform-browser@4.3.5 MIT
 
 webpack@3.4.1 MIT
 Copyright JS Foundation and other contributors
@@ -125,7 +125,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-@angular/common@4.3.4 MIT
+@angular/common@4.3.5 MIT
 
 css-loader@0.28.4 MIT
 Copyright JS Foundation and other contributors
