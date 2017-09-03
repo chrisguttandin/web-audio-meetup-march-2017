@@ -74,7 +74,11 @@ module.exports = (grunt) => {
                 }, {
                     match: /<script\stype="text\/javascript"\ssrc="(sw-register\.[a-z0-9]*\.bundle\.js)"><\/script>/g,
                     replacement: (match, filename) => {
-                        return `<script type="text/javascript">${ fs.readFileSync(`build/${ filename }`) }</script>`;
+                        const content = fs
+                            .readFileSync(`build/${ filename }`)
+                            .replace(/register\("worker-basic\.min\.js"\)/, 'register("web-audio-meetup-march-2017/worker-basic.min.js")');
+
+                        return `<script type="text/javascript">${ content }</script>`;
                     }
                 } ]
             }
