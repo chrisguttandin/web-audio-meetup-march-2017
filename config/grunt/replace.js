@@ -99,6 +99,19 @@ module.exports = (grunt) => {
                 } ]
             }
         },
+        'register': {
+            files: {
+                './': [
+                    'build/index.html'
+                ]
+            },
+            options: {
+                patterns: [ {
+                    match: /register\("worker-basic\.min\.js"\)/,
+                    replacement: 'register("web-audio-meetup-march-2017/scripts/worker-basic.min.js")'
+                } ]
+            }
+        },
         'scripts': {
             files: {
                 './': [
