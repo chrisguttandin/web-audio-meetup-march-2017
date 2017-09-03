@@ -24,6 +24,7 @@ module.exports = {
         'clean:styles',
         'replace:manifest',
         'replace:register',
+        'replace:worker',
         'gh-pages:deploy',
         'sh:smoke'
     ],

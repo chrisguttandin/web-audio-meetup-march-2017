@@ -141,6 +141,19 @@ module.exports = (grunt) => {
                     }
                 } ]
             }
+        },
+        'worker': {
+            files: {
+                './': [
+                    'build/scripts/worker-basic.min.js'
+                ]
+            },
+            options: {
+                patterns: [ {
+                    match: /"ngsw-manifest\.json"/,
+                    replacement: '"../ngsw-manifest.json"'
+                } ]
+            }
         }
     };
 };
