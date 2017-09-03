@@ -102,7 +102,7 @@ module.exports = (grunt) => {
         'register': {
             files: {
                 './': [
-                    'build/index.html'
+                    'build/scripts/sw-register.*.bundle.js'
                 ]
             },
             options: {
