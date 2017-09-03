@@ -82,17 +82,17 @@ module.exports = (grunt) => {
             },
             options: {
                 patterns: [ {
-                    match: /assets\/(apple-touch-icon-[1-9][0-9]{1,2}\.png)/g,
-                    replacement: (_, filename) => grunt.file.expand({ cwd: 'build' }, `assets/*.${ filename }`)[0]
+                    match: /\/assets\/(apple-touch-icon-[1-9][0-9]{1,2}\.png)/g,
+                    replacement: (_, filename) => grunt.file.expand({ cwd: 'build' }, `/assets/*.${ filename }`)[0]
                 }, {
-                    match: /assets\/favicon\.ico/g,
-                    replacement: () => grunt.file.expand({ cwd: 'build' }, 'assets/*.favicon.ico')[0]
+                    match: /\/assets\/favicon\.ico/g,
+                    replacement: () => grunt.file.expand({ cwd: 'build' }, '(assets/*.favicon.ico')[0]
                 }, {
-                    match: /([a-z0-9-]+\.[a-z0-9]*\.bundle\.css)"/g,
-                    replacement: (_, filename) => `"/styles/${ filename }"`
+                    match: /\/([a-z0-9-]+\.[a-z0-9]*\.bundle\.css)"/g,
+                    replacement: (_, filename) => `/styles/${ filename }"`
                 }, {
-                    match: /([a-z0-9-]+\.[a-z0-9]*\.(bundle|chunk)\.js)"/g,
-                    replacement: (_, filename) => `"/scripts/${ filename }"`
+                    match: /\/([a-z0-9-]+\.[a-z0-9]*\.(bundle|chunk)\.js)"/g,
+                    replacement: (_, filename) => `/scripts/${ filename }"`
                 }, {
                     match: /[\s]*"\/web-audio-meetup-march-2017(\/scripts)?\/inline\.[a-z0-9]+.bundle.js":\s"[a-z0-9]+",/g,
                     replacement: ''
