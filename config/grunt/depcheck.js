@@ -17,6 +17,7 @@ module.exports = {
                 'bundle-buddy',
                 'chai',
                 'chromedriver',
+                'eslint',
                 'eslint-config-holy-grail',
                 'greenkeeper-lockfile',
                 'grunt-*',
