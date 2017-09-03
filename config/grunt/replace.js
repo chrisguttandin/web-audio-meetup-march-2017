@@ -86,7 +86,7 @@ module.exports = (grunt) => {
                     replacement: (_, filename) => grunt.file.expand({ cwd: 'build' }, `/assets/*.${ filename }`)[0]
                 }, {
                     match: /\/assets\/favicon\.ico/g,
-                    replacement: () => grunt.file.expand({ cwd: 'build' }, '(assets/*.favicon.ico')[0]
+                    replacement: () => grunt.file.expand({ cwd: 'build' }, '/assets/*.favicon.ico')[0]
                 }, {
                     match: /\/([a-z0-9-]+\.[a-z0-9]*\.bundle\.css)"/g,
                     replacement: (_, filename) => `/styles/${ filename }"`
