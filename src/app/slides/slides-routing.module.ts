@@ -9,7 +9,7 @@ import { SlideFourComponent } from './slide-four/slide-four.component';
 import { SlideFourteenComponent } from './slide-fourteen/slide-fourteen.component';
 import { SlideNineComponent } from './slide-nine/slide-nine.component';
 import { SlideNineteenComponent } from './slide-nineteen/slide-nineteen.component';
-import { SlideOneComponent } from './slide-one/slide-one.component';
+import { SlideOneComponent } from './slide-one/slide-one.component';
 import { SlideSevenComponent } from './slide-seven/slide-seven.component';
 import { SlideSeventeenComponent } from './slide-seventeen/slide-seventeen.component';
 import { SlideSixComponent } from './slide-six/slide-six.component';
@@ -21,7 +21,7 @@ import { SlideTwelveComponent } from './slide-twelve/slide-twelve.component';
 import { SlideTwentyEightComponent } from './slide-twenty-eight/slide-twenty-eight.component';
 import { SlideTwentyFiveComponent } from './slide-twenty-five/slide-twenty-five.component';
 import { SlideTwentyFourComponent } from './slide-twenty-four/slide-twenty-four.component';
-import { SlideTwentyNineComponent } from './slide-twenty-nine/slide-twenty-nine.component';
+import { SlideTwentyNineComponent } from './slide-twenty-nine/slide-twenty-nine.component';
 import { SlideTwentyOneComponent } from './slide-twenty-one/slide-twenty-one.component';
 import { SlideTwentySevenComponent } from './slide-twenty-seven/slide-twenty-seven.component';
 import { SlideTwentySixComponent } from './slide-twenty-six/slide-twenty-six.component';
@@ -29,7 +29,7 @@ import { SlideTwentyThreeComponent } from './slide-twenty-three/slide-twenty-thr
 import { SlideTwentyTwoComponent } from './slide-twenty-two/slide-twenty-two.component';
 import { SlideTwentyComponent } from './slide-twenty/slide-twenty.component';
 import { SlideTwoComponent } from './slide-two/slide-two.component';
-import { SlidesComponent } from './slides.component';
+import { SlidesComponent } from './slides.component';
 
 const routes: Routes = [
     {
