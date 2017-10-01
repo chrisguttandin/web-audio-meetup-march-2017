@@ -1,4 +1,4 @@
-suite('addition', () => { // eslint-disable-line no-undef
+suite('addition', () => {
 
     benchmark('JavaScript (1 addition)', () => { // eslint-disable-line no-undef
         this.values.map((value) => value + this.summand);

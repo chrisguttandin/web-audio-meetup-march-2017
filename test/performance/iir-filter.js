@@ -1,4 +1,4 @@
-suite('irrFilter', () => { // eslint-disable-line no-undef
+suite('irrFilter', () => {
 
     benchmark('JavaScript', () => { // eslint-disable-line no-undef
         const results = [ this.values[0] * (this.feedforward[0] * this.feedback[0]) ];

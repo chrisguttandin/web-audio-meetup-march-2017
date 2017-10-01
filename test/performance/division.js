@@ -1,4 +1,4 @@
-suite('division', () => { // eslint-disable-line no-undef
+suite('division', () => {
 
     benchmark('JavaScript (1 division)', () => { // eslint-disable-line no-undef
         this.values.map((value) => value / this.divisor);
