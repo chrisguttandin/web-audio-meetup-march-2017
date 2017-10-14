@@ -28,6 +28,7 @@ module.exports = {
                 'mocha',
                 'sinon',
                 'sinon-chai',
+                'stylelint-config-holy-grail',
                 'tsconfig-holy-grail',
                 'tslint',
                 'tslint-config-holy-grail',
