@@ -21,7 +21,7 @@ module.exports = {
         cmd: 'ng serve --aot --port 7766 --prod'
     },
     smoke: {
-        cmd: 'IS_SMOKE_TEST=true ng e2e --serve false && sonar https://chrisguttandin.github.io/web-audio-meetup-march-2017 && rm cdp.pid'
+        cmd: 'IS_SMOKE_TEST=true ng e2e --serve false && sonarwhal https://chrisguttandin.github.io/web-audio-meetup-march-2017 && rm cdp.pid'
     },
     test: {
         cmd: 'ng test --watch false'
