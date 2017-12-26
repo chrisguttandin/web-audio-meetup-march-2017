@@ -4,6 +4,7 @@
         "component-selector": [ true, "element", "wam", "kebab-case" ],
         "directive-selector": [ true, "attribute", "wam", "camelCase" ],
         "import-blacklist": false,
+        "no-implicit-dependencies": [ true, "dev" ],
         "pipe-naming": [ true, "camelCase", "wam" ]
     }
 }
