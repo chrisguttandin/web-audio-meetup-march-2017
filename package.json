@@ -69,7 +69,7 @@
     "load-grunt-config": "^0.19.2",
     "mocha": "^5.0.0",
     "protractor": "~5.1.2",
-    "sinon": "^4.1.5",
+    "sinon": "^4.1.6",
     "sinon-chai": "^2.14.0",
     "sonarwhal": "^0.23.0",
     "stylelint": "^8.4.0",
