@@ -71,7 +71,7 @@
     "protractor": "~5.1.2",
     "sinon": "^4.2.1",
     "sinon-chai": "^2.14.0",
-    "sonarwhal": "^0.23.1",
+    "sonarwhal": "^0.24.0",
     "stylelint": "^8.4.0",
     "stylelint-config-holy-grail": "^1.0.0",
     "ts-node": "~4.1.0",
