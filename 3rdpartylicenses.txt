@@ -10,7 +10,7 @@ MIT
 MIT
 MIT
 
-prismjs@1.10.0
+prismjs@1.11.0
 MIT
 MIT LICENSE
 
