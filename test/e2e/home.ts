@@ -11,6 +11,7 @@ describe('/', () => {
 
     it('should display the correct headline', () => {
         page.navigateTo();
+
         expect(page.getHeadline()).toEqual('What else can we do\nwith the Web Audio API?');
     });
 
