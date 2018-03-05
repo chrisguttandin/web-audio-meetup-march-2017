@@ -17,6 +17,7 @@ module.exports = {
                 'axe-core',
                 'bundle-buddy',
                 'chai',
+                'commitizen',
                 'eslint',
                 'eslint-config-holy-grail',
                 'greenkeeper-lockfile',
