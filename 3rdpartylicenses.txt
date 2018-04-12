@@ -50,7 +50,7 @@ MIT
 MIT
 MIT
 
-prismjs@1.13.0
+prismjs@1.14.0
 MIT
 MIT LICENSE
 
