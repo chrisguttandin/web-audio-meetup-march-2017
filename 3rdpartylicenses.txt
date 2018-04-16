@@ -1,8 +1,8 @@
-@angular/common@5.2.9
+@angular/common@5.2.10
 MIT
 MIT
 
-@angular/core@5.2.9
+@angular/core@5.2.10
 MIT
 MIT
 
@@ -30,23 +30,23 @@ MIT License
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
 
-@angular/router@5.2.9
+@angular/router@5.2.10
 MIT
 MIT
 
-@angular/animations@5.2.9
+@angular/animations@5.2.10
 MIT
 MIT
 
-@angular/platform-browser@5.2.9
+@angular/platform-browser@5.2.10
 MIT
 MIT
 
-@angular/service-worker@5.2.9
+@angular/service-worker@5.2.10
 MIT
 MIT
 
-@angular/platform-browser-dynamic@5.2.9
+@angular/platform-browser-dynamic@5.2.10
 MIT
 MIT
 
