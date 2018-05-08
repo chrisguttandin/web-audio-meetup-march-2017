@@ -1,7 +1,6 @@
 {
   "angularCompilerOptions": {
-    "fullTemplateTypeCheck": true,
-    "preserveWhitespaces": true
+    "fullTemplateTypeCheck": true
   },
   "compilerOptions": {
     "baseUrl": "./",
