@@ -20,7 +20,7 @@
                                 }
                             ],
                             "namedChunks": false,
-                            "ngswConfigPath": "/src/ngsw-config.json",
+                            "ngswConfigPath": "src/ngsw-config.json",
                             "optimization": true,
                             "outputHashing": "all",
                             "serviceWorker": true,
@@ -34,7 +34,7 @@
                         ],
                         "index": "src/index.html",
                         "main": "src/main.ts",
-                        "outputPath": "build",
+                        "outputPath": "build/web-audio-meetup-march-2017",
                         "polyfills": "src/polyfills.ts",
                         "scripts": [
                             "node_modules/hammerjs/hammer.js"
@@ -79,8 +79,8 @@
                         "assets": [
                             "src/assets"
                         ],
-                        "karmaConfig": "./config/karma/config.js",
-                        "main": "src/../config/karma/test.ts",
+                        "karmaConfig": "config/karma/config.js",
+                        "main": "config/karma/test.ts",
                         "polyfills": "src/polyfills.ts",
                         "scripts": [
                             "node_modules/hammerjs/hammer.js"
@@ -89,13 +89,15 @@
                             "node_modules/prismjs/themes/prism-okaidia.css",
                             "src/styles/styles.css"
                         ],
-                        "tsConfig": "src/../test/unit/tsconfig.json"
+                        "tsConfig": "test/unit/tsconfig.json"
                     }
                 }
             },
+            "prefix": "wam",
             "projectType": "application",
             "root": "",
-            "sourceRoot": "src",
+            "schematics": { },
+            "sourceRoot": "src"
         },
         "web-audio-meetup-march-2017-e2e": {
             "architect": {
@@ -103,7 +105,7 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "devServerTarget": "web-audio-meetup-march-2017:serve",
-                        "protractorConfig": "./config/protractor/e2e.js"
+                        "protractorConfig": "config/protractor/e2e.js"
                     }
                 },
                 "lint": {
@@ -118,8 +120,7 @@
                 }
             },
             "projectType": "application",
-            "root": "",
-            "sourceRoot": ""
+            "root": "test/e2e/"
         },
         "web-audio-meetup-march-2017-unit": {
             "architect": {
@@ -135,8 +136,7 @@
                 }
             },
             "projectType": "application",
-            "root": "",
-            "sourceRoot": ""
+            "root": "test/unit/"
         }
     },
     "schematics": {

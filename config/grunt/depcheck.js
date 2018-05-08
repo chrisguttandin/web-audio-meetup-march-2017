@@ -36,8 +36,7 @@ module.exports = {
                 'tslint',
                 'tslint-config-holy-grail',
                 'typescript',
-                'webpack-bundle-analyzer',
-                'webpack-stats-duplicates'
+                'webpack-bundle-analyzer'
             ]
         },
         src: './'

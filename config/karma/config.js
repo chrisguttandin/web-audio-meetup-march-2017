@@ -4,10 +4,6 @@ module.exports = (config) => {
 
     config.set({
 
-        angularCli: {
-            environment: 'dev'
-        },
-
         basePath: '../../',
 
         client: {
@@ -15,9 +11,9 @@ module.exports = (config) => {
         },
 
         coverageIstanbulReporter: {
-            dir: join(__dirname, 'coverage'),
+            dir: join(__dirname, '../../coverage'),
             fixWebpackSourcePaths: true,
-            reporters: [ 'kjhtml', 'progress' ]
+            reports: [ 'html', 'lcovonly' ]
         },
 
         frameworks: [
@@ -30,9 +26,7 @@ module.exports = (config) => {
             'karma-*'
         ],
 
-        reporters: config.angularCli && config.angularCli.codeCoverage
-            ? [ 'progress', 'coverage-istanbul' ]
-            : [ 'progress', 'kjhtml' ]
+        reporters: [ 'progress', 'kjhtml' ]
 
     });
 
