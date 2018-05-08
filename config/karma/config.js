@@ -1,3 +1,5 @@
+const { join } = require('path');
+
 module.exports = (config) => {
 
     config.set({
@@ -13,34 +15,20 @@ module.exports = (config) => {
         },
 
         coverageIstanbulReporter: {
+            dir: join(__dirname, 'coverage'),
             fixWebpackSourcePaths: true,
-            reports: [ 'html', 'lcovonly' ]
+            reporters: [ 'kjhtml', 'progress' ]
         },
 
-        files: [
-            {
-                pattern: './config/karma/test.ts',
-                watched: false
-            }
-        ],
-
         frameworks: [
-            '@angular/cli',
+            '@angular-devkit/build-angular',
             'jasmine'
         ],
 
-        mime: {
-            'text/x-typescript': [ 'ts', 'tsx' ]
-        },
-
         plugins: [
-            '@angular/cli/plugins/karma',
+            '@angular-devkit/build-angular/plugins/karma',
             'karma-*'
         ],
-
-        preprocessors: {
-            './config/karma/test.ts': [ '@angular/cli' ]
-        },
 
         reporters: config.angularCli && config.angularCli.codeCoverage
             ? [ 'progress', 'coverage-istanbul' ]

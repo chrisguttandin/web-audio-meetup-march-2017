@@ -11,7 +11,8 @@
   },
   "extends": "../../node_modules/tsconfig-holy-grail/src/tsconfig-browser",
   "files": [
-    "../../config/karma/test.ts"
+    "../../config/karma/test.ts",
+    "../../src/polyfills.ts"
   ],
   "include": [
     "**/*.ts"
