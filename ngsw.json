@@ -7,12 +7,12 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/web-audio-meetup-march-2017/scripts/0.f6355ccae14978f716da.js",
         "/web-audio-meetup-march-2017/index.html",
-        "/web-audio-meetup-march-2017/scripts/0.e7411fcdbcaa54c19c4e.chunk.js",
-        "/web-audio-meetup-march-2017/scripts/main.8b3117b7da8287b1c4cc.bundle.js",
-        "/web-audio-meetup-march-2017/scripts/polyfills.d3fec56172fd3f28a448.bundle.js",
-        "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.bundle.js",
-        "/web-audio-meetup-march-2017/styles/styles.39dc9f24c99406decfda.bundle.css"
+        "/web-audio-meetup-march-2017/scripts/main.40be0ad141c1edd44499.js",
+        "/web-audio-meetup-march-2017/scripts/polyfills.71debb479a920a68903d.js",
+        "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.js",
+        "/web-audio-meetup-march-2017/styles/styles.463e103551fcd59b3faa.css"
       ],
       "patterns": []
     },
@@ -26,11 +26,29 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/web-audio-meetup-march-2017/scripts/0.e7411fcdbcaa54c19c4e.chunk.js": "385b063a66a6b0dda6fba5d5c305859af8d876f6",
-    "/web-audio-meetup-march-2017/scripts/main.8b3117b7da8287b1c4cc.bundle.js": "23ccd7b63051e529819c2ded3a3466981d51183c",
-    "/web-audio-meetup-march-2017/scripts/polyfills.d3fec56172fd3f28a448.bundle.js": "37e070a767d202d330eb1ce07ba5d2576e326d24",
-    "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.bundle.js": "f4e2c156e87557ccd777f8c3a374bc74a1b838ef",
-    "/web-audio-meetup-march-2017/styles/styles.39dc9f24c99406decfda.bundle.css": "a1a5ce622a138d98ddf8063276b47fea20757991",
-    "/web-audio-meetup-march-2017/index.html": "24d792f98e92ff11b0f5ff003daf57a94545ce90"
-  }
+    "/web-audio-meetup-march-2017/scripts/0.f6355ccae14978f716da.js": "51d113ac3fd2f418941a2a32a843a68264344880",
+    "/web-audio-meetup-march-2017/index.html": "c0dbfde2df84fed7e6b31ca7fb36ebda41cd08dc",
+    "/web-audio-meetup-march-2017/scripts/main.40be0ad141c1edd44499.js": "6930a14f72b25a5dfaea4ae588305b1f21cd3108",
+    "/web-audio-meetup-march-2017/scripts/polyfills.71debb479a920a68903d.js": "afb4118e6847c7b0eb20d8f560dffe455d089eb3",
+    "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "5953fb53b4617918a379ad521eea7b157b244d46",
+    "/web-audio-meetup-march-2017/styles/styles.463e103551fcd59b3faa.css": "a1a5ce622a138d98ddf8063276b47fea20757991"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
 }
