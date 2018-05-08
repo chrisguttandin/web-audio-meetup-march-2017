@@ -164,7 +164,7 @@ module.exports = (grunt) => {
             },
             options: {
                 patterns: [ {
-                    match: /<link\shref="(styles\.[a-z0-9]*\.css)"\srel="stylesheet"\/>/g,
+                    match: /<link\shref="(styles\.[a-z0-9]*\.css)"\srel="stylesheet">/g,
                     replacement: (match, filename) => {
                         const hash = `sha384-${ computeHashOfFile(`build/web-audio-meetup-march-2017/styles/${ filename }`, 'sha384', 'base64') }`;
 
