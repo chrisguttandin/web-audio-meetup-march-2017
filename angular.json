@@ -10,6 +10,13 @@
                     "configurations": {
                         "production": {
                             "aot": true,
+                            "budgets": [
+                                {
+                                    "baseline": "500kb",
+                                    "maximumError": "500kb",
+                                    "type": "all"
+                                }
+                            ],
                             "buildOptimizer": true,
                             "extractCss": true,
                             "extractLicenses": true,
