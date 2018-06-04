@@ -64,7 +64,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "@types/prismjs": "^1.9.0",
-    "axe-core": "^3.0.2",
+    "axe-core": "^3.0.3",
     "bundle-buddy": "^0.2.1",
     "chai": "^4.1.2",
     "commitizen": "^2.10.1",
