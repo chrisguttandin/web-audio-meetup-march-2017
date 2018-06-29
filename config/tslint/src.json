@@ -1,8 +1,17 @@
 {
     "extends": "tslint-config-holy-grail",
     "rules": {
-        "component-selector": [ true, "element", "wam", "kebab-case" ],
-        "directive-selector": [ true, "attribute", "wam", "camelCase" ],
-        "pipe-naming": [ true, "camelCase", "wam" ]
+        "component-selector": [
+            true,
+            "element",
+            "wam",
+            "kebab-case"
+        ],
+        "directive-selector": [
+            true,
+            "attribute",
+            "wam",
+            "camelCase"
+        ]
     }
 }
