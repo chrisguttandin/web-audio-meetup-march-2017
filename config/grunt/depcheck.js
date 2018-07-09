@@ -37,6 +37,7 @@ module.exports = {
                 'tslint',
                 'tslint-config-holy-grail',
                 'typescript',
+                'webpack',
                 'webpack-bundle-analyzer'
             ]
         },
