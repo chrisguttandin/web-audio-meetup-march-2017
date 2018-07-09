@@ -40,14 +40,11 @@ module.exports = (config) => {
         },
 
         reporters: [
-            /*
-             * Only one reporter can be used at the same time. Otherwise benchmarks run twice.
-             * 'benchmark',
-             */
-            'benchmark-json'
+            'benchmark'
         ],
 
         webpack: {
+            mode: 'development',
             resolve: {
                 extensions: [ '.js' ]
             }

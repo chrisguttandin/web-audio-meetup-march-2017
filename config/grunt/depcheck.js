@@ -17,6 +17,7 @@ module.exports = {
                 '@sonarwhal/*',
                 '@types/*',
                 'axe-core',
+                'benchmark',
                 'bundle-buddy',
                 'chai',
                 'commitizen',
