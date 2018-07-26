@@ -7,9 +7,9 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/web-audio-meetup-march-2017/scripts/0.be7e0d928e6432d58888.js",
+        "/web-audio-meetup-march-2017/scripts/0.6bf73d76c6bca3ae0f3f.js",
         "/web-audio-meetup-march-2017/index.html",
-        "/web-audio-meetup-march-2017/scripts/main.3346d52f84968ea6283f.js",
+        "/web-audio-meetup-march-2017/scripts/main.e3f2dd36761741da1c60.js",
         "/web-audio-meetup-march-2017/scripts/polyfills.4acdbe2d2780cd72c166.js",
         "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.js",
         "/web-audio-meetup-march-2017/styles/styles.c81e4e7fa5f776d626e8.css"
@@ -26,9 +26,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/web-audio-meetup-march-2017/scripts/0.be7e0d928e6432d58888.js": "e477b705a776f24258b0142495bc28d70ceafb95",
-    "/web-audio-meetup-march-2017/index.html": "7e1870417756de7679b23b74fc1337c6e31551b2",
-    "/web-audio-meetup-march-2017/scripts/main.3346d52f84968ea6283f.js": "743ab382929e4e43e56eac13a4d84b517f6cbcec",
+    "/web-audio-meetup-march-2017/scripts/0.6bf73d76c6bca3ae0f3f.js": "8eb5d199fc4fdbdc8eba79cf5aa9be4dbc44b80f",
+    "/web-audio-meetup-march-2017/index.html": "48c6ff54035816536277094cae82f793a68b8720",
+    "/web-audio-meetup-march-2017/scripts/main.e3f2dd36761741da1c60.js": "741de89ef53db8daf9659ba74e4aa228a8dcf245",
     "/web-audio-meetup-march-2017/scripts/polyfills.4acdbe2d2780cd72c166.js": "32ff103404372406dccb69a68c193ef7bea153c0",
     "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "5953fb53b4617918a379ad521eea7b157b244d46",
     "/web-audio-meetup-march-2017/styles/styles.c81e4e7fa5f776d626e8.css": "db0c4ec00c5ff28a2abaa4bcd0dde97c850d7a82"
@@ -40,15 +40,15 @@
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
     },
     {
       "positive": false,
-      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
   ]
 }
