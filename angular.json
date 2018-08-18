@@ -77,7 +77,8 @@
                         }
                     },
                     "options": {
-                        "browserTarget": "web-audio-meetup-march-2017:build"
+                        "browserTarget": "web-audio-meetup-march-2017:build",
+                        "port": 7766
                     }
                 },
                 "test": {

@@ -19,10 +19,10 @@ module.exports = {
         cmd: 'ng lint web-audio-meetup-march-2017 --type-check && ng lint web-audio-meetup-march-2017-e2e --type-check && ng lint web-audio-meetup-march-2017-unit --type-check'
     },
     monitor: {
-        cmd: 'ng serve --aot --port 7766'
+        cmd: 'ng serve --aot'
     },
     preview: {
-        cmd: 'ng serve --aot --port 7766 --prod'
+        cmd: 'ng serve --aot --prod'
     },
     smoke: {
         cmd: (env.TRAVIS) ?
