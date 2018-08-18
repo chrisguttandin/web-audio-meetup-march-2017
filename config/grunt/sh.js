@@ -22,7 +22,7 @@ module.exports = {
         cmd: 'ng serve --aot --port 7766'
     },
     preview: {
-        cmd: 'ng serve --aot --build-optimizer --port 7766 --prod'
+        cmd: 'ng serve --aot --port 7766 --prod'
     },
     smoke: {
         cmd: (env.TRAVIS) ?
