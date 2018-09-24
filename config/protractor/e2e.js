@@ -1,20 +1,11 @@
 const { SpecReporter } = require('jasmine-spec-reporter');
-const { env } = require('process');
 const tsNode = require('ts-node');
-
-// eslint-disable-next-line padding-line-between-statements
-const chromeCapabilities = {
-    browserName: 'chrome',
-    chromeOptions: {
-        args: [ '--device-scale-factor=2', '--disable-gpu', '--force-device-scale-factor=2', '--headless', '--window-size=1024,768' ]
-    }
-};
 
 exports.config = {
 
     allScriptsTimeout: 11000,
 
-    directConnect: !!env.TRAVIS,
+    directConnect: false,
 
     framework: 'jasmine',
 
@@ -24,11 +15,20 @@ exports.config = {
         showColors: true
     },
 
-    multiCapabilities: (env.TRAVIS) ?
-        [ chromeCapabilities ] :
-        [ chromeCapabilities, { browserName: 'safari' } ],
+    multiCapabilities: [
+        {
+            browserName: 'chrome',
+            chromeOptions: {
+                args: [ '--device-scale-factor=2', '--disable-gpu', '--force-device-scale-factor=2', '--headless', '--window-size=1024,768' ]
+            }
+        }, {
+            browserName: 'safari'
+        }
+    ],
 
     onPrepare () {
+        browser.resetUrl = 'about:blank'; // eslint-disable-line no-undef
+
         tsNode.register({
             project: 'test/e2e/tsconfig.json'
         });
