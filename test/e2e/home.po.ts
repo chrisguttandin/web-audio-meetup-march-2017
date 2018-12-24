@@ -16,7 +16,7 @@ export class HomePage {
     }
 
     public navigateTo (): promise.Promise<any> {
-        return browser.get((env.IS_SMOKE_TEST) ? '/web-audio-meetup-march-2017' : '/');
+        return browser.get((env.IS_SMOKE_TEST === 'true') ? '/web-audio-meetup-march-2017' : '/');
     }
 
 }
