@@ -7,7 +7,6 @@ constantSource.start(0);
 const gain = new GainNode(audioContext, &#123;
     gain: -1
 &#125;);
-
 valuesBufferSource.connect(audioContext.destination);
 constantSource
     .connect(gain)
