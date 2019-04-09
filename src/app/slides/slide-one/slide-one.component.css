@@ -9,3 +9,15 @@ a,
 span {
     display: block;
 }
+
+h1 {
+    font-size: 90%;
+}
+
+h2 {
+    font-size: 70%;
+}
+
+span {
+    font-size: 40%;
+}
