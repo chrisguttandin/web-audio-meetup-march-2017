@@ -13,5 +13,6 @@ th:nth-of-type(3) {
 span {
     color: #777;
     display: block;
+    font-size: 40%;
     padding: 1em 0 0;
 }
