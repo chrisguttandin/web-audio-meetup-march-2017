@@ -1,3 +1,12 @@
+table {
+    width: 100%;
+}
+
+td,
+th {
+    font-size: 50%;
+}
+
 td:first-of-type {
     text-align: left;
 }
