@@ -120,7 +120,7 @@
     "load-grunt-config": "^1.0.1",
     "mocha": "^6.1.4",
     "protractor": "~5.4.2",
-    "sinon": "^7.3.1",
+    "sinon": "^7.3.2",
     "sinon-chai": "^3.3.0",
     "stylelint": "^10.0.1",
     "stylelint-config-holy-grail": "^4.0.3",
