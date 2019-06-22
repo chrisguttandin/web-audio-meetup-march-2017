@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1560511251210,
+  "timestamp": 1561170791715,
   "index": "/web-audio-meetup-march-2017/index.html",
   "assetGroups": [
     {
@@ -8,15 +8,12 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/web-audio-meetup-march-2017/scripts/4-es2015.a8f72423775f70ae6466.js",
-        "/web-audio-meetup-march-2017/scripts/4-es5.03f0c26a9141380cf8b4.js",
+        "/web-audio-meetup-march-2017/scripts/4.a8f72423775f70ae6466.js",
         "/web-audio-meetup-march-2017/index.html",
-        "/web-audio-meetup-march-2017/scripts/main-es2015.ad07b8b63c87f495da1f.js",
-        "/web-audio-meetup-march-2017/scripts/main-es5.742b8a6f32728de632ad.js",
-        "/web-audio-meetup-march-2017/scripts/polyfills-es2015.786bd6c86564da7e1e9e.js",
-        "/web-audio-meetup-march-2017/scripts/polyfills-es5.d15c3b0448b2fa7e0d14.js",
+        "/web-audio-meetup-march-2017/scripts/main.2a406d9bc922db68ca56.js",
+        "/web-audio-meetup-march-2017/scripts/polyfills.786bd6c86564da7e1e9e.js",
         "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.js",
-        "/web-audio-meetup-march-2017/styles/styles.18f1e493dbab33af61db.css"
+        "/web-audio-meetup-march-2017/styles/styles.6738dde6f4ee74e920b6.css"
       ],
       "patterns": []
     },
@@ -26,19 +23,26 @@
       "updateMode": "prefetch",
       "urls": [],
       "patterns": []
+    },
+    {
+      "name": "fonts",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "urls": [],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css",
+        "https:\\/\\/fonts\\.gstatic\\.com"
+      ]
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/web-audio-meetup-march-2017/scripts/4-es2015.a8f72423775f70ae6466.js": "9733fd43fe26b3467bc02c78de1fa42b6b3c847c",
-    "/web-audio-meetup-march-2017/scripts/4-es5.03f0c26a9141380cf8b4.js": "ac4e1038ee3d9d67860ab0c61f7c9851b20174c9",
-    "/web-audio-meetup-march-2017/index.html": "4245ccda2b656da0b685e1b8f1e2bbd6f90635df",
-    "/web-audio-meetup-march-2017/scripts/main-es2015.ad07b8b63c87f495da1f.js": "c0e690b7cd778e874650beda3d7a4e469ac5e585",
-    "/web-audio-meetup-march-2017/scripts/main-es5.742b8a6f32728de632ad.js": "fc4aad3e20a477940164b0e0f985d8ce335f61ae",
-    "/web-audio-meetup-march-2017/scripts/polyfills-es2015.786bd6c86564da7e1e9e.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
-    "/web-audio-meetup-march-2017/scripts/polyfills-es5.d15c3b0448b2fa7e0d14.js": "042d7744ef82a64c73310f1db253736731a03950",
+    "/web-audio-meetup-march-2017/scripts/4.a8f72423775f70ae6466.js": "9733fd43fe26b3467bc02c78de1fa42b6b3c847c",
+    "/web-audio-meetup-march-2017/index.html": "670d006955c6672042f249b2005cad6173950845",
+    "/web-audio-meetup-march-2017/scripts/main.2a406d9bc922db68ca56.js": "937874d0aa6cd685f0200df2ce8eb9810ccd7be5",
+    "/web-audio-meetup-march-2017/scripts/polyfills.786bd6c86564da7e1e9e.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
     "/web-audio-meetup-march-2017/scripts/scripts.2e1ce7e02614f3c7a0cf.js": "5953fb53b4617918a379ad521eea7b157b244d46",
-    "/web-audio-meetup-march-2017/styles/styles.18f1e493dbab33af61db.css": "78119212189a557cefa50db22489c8aa711db407"
+    "/web-audio-meetup-march-2017/styles/styles.6738dde6f4ee74e920b6.css": "3120111c65d1d29d59cc551f8ab30c2f7cada9a4"
   },
   "navigationUrls": [
     {
