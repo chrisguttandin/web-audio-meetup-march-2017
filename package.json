@@ -116,7 +116,7 @@
     "karma-sauce-launcher": "^2.0.2",
     "karma-sinon-chai": "^2.0.2",
     "karma-webpack": "^4.0.2",
-    "load-grunt-config": "^3.0.0",
+    "load-grunt-config": "^3.0.1",
     "mocha": "^6.2.0",
     "protractor": "~5.4.2",
     "sinon": "^7.4.2",
