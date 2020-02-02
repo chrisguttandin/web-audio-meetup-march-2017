@@ -55,7 +55,7 @@ module.exports = {
         'sh:monitor'
     ],
     'performance': [
-        'karma:performance'
+        'sh:performance'
     ],
     'preview': [
         'sh:preview'

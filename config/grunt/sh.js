@@ -38,6 +38,9 @@ module.exports = (grunt) => {
         'monitor': {
             cmd: 'ng serve --aot'
         },
+        'performance': {
+            cmd: 'karma start config/karma/config-performance.js --single-run'
+        },
         'preview': {
             cmd: 'ng serve --aot --prod'
         },
