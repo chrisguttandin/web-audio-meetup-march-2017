@@ -95,7 +95,6 @@
     "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-depcheck": "^1.0.0",
     "grunt-gh-pages": "^3.1.0",
-    "grunt-karma": "^3.0.2",
     "grunt-postcss": "^0.9.0",
     "grunt-replace": "^1.0.1",
     "grunt-sh": "^0.2.0",
