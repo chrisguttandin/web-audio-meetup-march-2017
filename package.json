@@ -82,7 +82,7 @@
     "benchmark": "^2.1.4",
     "bundle-buddy": "^0.2.2",
     "chai": "^4.2.0",
-    "commitizen": "^4.0.3",
+    "commitizen": "^4.0.4",
     "content-security-policy-builder": "^2.1.0",
     "cz-conventional-changelog": "^3.1.0",
     "element-shot": "^4.1.10",
