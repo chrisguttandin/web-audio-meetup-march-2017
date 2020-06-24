@@ -1,7 +1,5 @@
 module.exports = (config) => {
-
     config.set({
-
         basePath: '../../',
 
         benchmarkJsonReporter: {
@@ -14,46 +12,33 @@ module.exports = (config) => {
 
         browserNoActivityTimeout: 1000000,
 
-        browsers: [
-            'ChromeCanaryHeadless',
-            'FirefoxDeveloperHeadless'
-        ],
+        browsers: ['ChromeCanaryHeadless', 'FirefoxDeveloperHeadless'],
 
         concurrency: 1,
 
-        files: [
-            'test/performance/**/*.js'
-        ],
+        files: ['test/performance/**/*.js'],
 
-        frameworks: [
-            'benchmark',
-            'mocha',
-            'sinon-chai'
-        ],
+        frameworks: ['benchmark', 'mocha', 'sinon-chai'],
 
         mime: {
-            'text/x-typescript': [ 'ts', 'tsx' ]
+            'text/x-typescript': ['ts', 'tsx']
         },
 
         preprocessors: {
             'test/performance/**/*.js': 'webpack'
         },
 
-        reporters: [
-            'benchmark'
-        ],
+        reporters: ['benchmark'],
 
         webpack: {
             mode: 'development',
             resolve: {
-                extensions: [ '.js' ]
+                extensions: ['.js']
             }
         },
 
         webpackMiddleware: {
             noInfo: true
         }
-
     });
-
 };
