@@ -1,16 +1,19 @@
 {
   "configVersion": 1,
-  "timestamp": 1593201148715,
+  "timestamp": 1593295775237,
   "index": "/web-audio-meetup-march-2017/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
-        "/web-audio-meetup-march-2017/scripts/4.3040cbbb07f085482dcb.js",
+        "/web-audio-meetup-march-2017/scripts/4.e309a0180a7024f64564.js",
         "/web-audio-meetup-march-2017/index.html",
-        "/web-audio-meetup-march-2017/scripts/main.1121fe3027082560ad02.js",
+        "/web-audio-meetup-march-2017/scripts/main.95eb167da5003369632d.js",
         "/web-audio-meetup-march-2017/scripts/polyfills.75a877e5f3cccabb544e.js",
         "/web-audio-meetup-march-2017/scripts/scripts.1dade9dd63b52cc23955.js",
         "/web-audio-meetup-march-2017/styles/styles.cce1c2b8e8f6568d05bb.css"
@@ -21,6 +24,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [],
       "patterns": []
     },
@@ -28,6 +34,9 @@
       "name": "fonts",
       "installMode": "lazy",
       "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css",
@@ -37,9 +46,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/web-audio-meetup-march-2017/scripts/4.3040cbbb07f085482dcb.js": "b22ea9e8fb7a3fb68725d49a920755ad9f757cb4",
-    "/web-audio-meetup-march-2017/index.html": "fc6c413efb3229b2584cec23df316701e5425ef0",
-    "/web-audio-meetup-march-2017/scripts/main.1121fe3027082560ad02.js": "f10c2d019be24be8eff96947de503dde25468ace",
+    "/web-audio-meetup-march-2017/scripts/4.e309a0180a7024f64564.js": "604d6a11114b8a9b58397ac8a40c813d7def8b36",
+    "/web-audio-meetup-march-2017/index.html": "fab1f0fe7fd13f82f0f50655cf19a742a53320c2",
+    "/web-audio-meetup-march-2017/scripts/main.95eb167da5003369632d.js": "6a125af445f6a1776be5d0e7fc56b6590a65692f",
     "/web-audio-meetup-march-2017/scripts/polyfills.75a877e5f3cccabb544e.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "/web-audio-meetup-march-2017/scripts/scripts.1dade9dd63b52cc23955.js": "ab1bef7f2bced76497d70482eb1cdd535a942d48",
     "/web-audio-meetup-march-2017/styles/styles.cce1c2b8e8f6568d05bb.css": "3cf8798aee8628bb801c47e42ca4f1e1108d6deb"
