@@ -121,7 +121,7 @@
         "prettier": "^2.0.5",
         "pretty-quick": "^2.0.1",
         "protractor": "~7.0.0",
-        "sinon": "^9.0.2",
+        "sinon": "^9.0.3",
         "sinon-chai": "^3.5.0",
         "stylelint": "^13.6.1",
         "stylelint-config-holy-grail": "^6.0.3",
