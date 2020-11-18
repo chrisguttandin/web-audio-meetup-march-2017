@@ -78,7 +78,7 @@
         "@types/jasminewd2": "~2.0.8",
         "@types/node": "^12.19.5",
         "@types/prismjs": "^1.16.2",
-        "axe-core": "^4.0.2",
+        "axe-core": "^4.1.0",
         "benchmark": "^2.1.4",
         "bundle-buddy": "^0.2.2",
         "chai": "^4.2.0",
