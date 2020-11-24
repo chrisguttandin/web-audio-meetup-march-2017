@@ -1,4 +1,3 @@
-import { env } from 'process';
 import { browser, by, element } from 'protractor';
 
 export class HomePage {
@@ -14,6 +13,6 @@ export class HomePage {
     }
 
     public async navigateTo(): Promise<unknown> {
-        return browser.get(env.IS_SMOKE_TEST === 'true' ? '/web-audio-meetup-march-2017' : '/');
+        return browser.get(browser.baseUrl);
     }
 }
