@@ -29,6 +29,8 @@ module.exports = {
                 'jasmine-core',
                 'karma*',
                 'mocha',
+                'prettier',
+                'pretty-quick',
                 'sinon',
                 'sinon-chai',
                 'stylelint-config-holy-grail',
