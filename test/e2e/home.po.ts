@@ -13,7 +13,7 @@ export class HomePage {
         return element(by.css('wam-app h2')).getText();
     }
 
-    public async navigateTo(): Promise<any> {
+    public async navigateTo(): Promise<unknown> {
         return browser.get(env.IS_SMOKE_TEST === 'true' ? '/web-audio-meetup-march-2017' : '/');
     }
 }
