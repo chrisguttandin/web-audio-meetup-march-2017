@@ -20,10 +20,6 @@ module.exports = (config) => {
 
         frameworks: ['benchmark', 'mocha', 'sinon-chai'],
 
-        mime: {
-            'text/x-typescript': ['ts', 'tsx']
-        },
-
         preprocessors: {
             'test/performance/**/*.js': 'webpack'
         },
