@@ -78,7 +78,6 @@
         "@types/node": "^12.19.14",
         "@types/prismjs": "^1.16.2",
         "axe-core": "^4.1.1",
-        "benchmark": "^2.1.4",
         "bundle-buddy": "^0.2.2",
         "chai": "^4.2.0",
         "commitizen": "^4.2.3",
