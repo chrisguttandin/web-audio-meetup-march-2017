@@ -1,6 +1,7 @@
-import { browser, by, element } from 'protractor';
+import { browser, by, element, promise } from 'protractor';
 
 export class HomePage {
+    // eslint-disable-next-line class-methods-use-this
     public async getHeadline(): Promise<string> {
         const innerHtml = await element(by.css('wam-app h1')).getAttribute('innerHTML');
 
@@ -8,11 +9,13 @@ export class HomePage {
         return innerHtml.replace(/<br[^>]*>/g, '\n');
     }
 
-    public async getSubHeadline(): Promise<string> {
+    // eslint-disable-next-line class-methods-use-this
+    public getSubHeadline(): promise.Promise<string> {
         return element(by.css('wam-app h2')).getText();
     }
 
-    public async navigateTo(): Promise<unknown> {
+    // eslint-disable-next-line class-methods-use-this
+    public navigateTo(): promise.Promise<unknown> {
         return browser.get(browser.baseUrl);
     }
 }
