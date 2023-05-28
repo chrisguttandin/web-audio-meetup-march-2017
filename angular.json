@@ -1,6 +1,5 @@
 {
     "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-    "defaultProject": "web-audio-meetup-march-2017",
     "newProjectRoot": "projects",
     "projects": {
         "web-audio-meetup-march-2017": {
