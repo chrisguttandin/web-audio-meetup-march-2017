@@ -1,11 +1,13 @@
 <h2>Applying an IIR Filter (WAA)</h2>
-<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->//...
-const iirFilter = new IIRFilterNode(audioContext, &#123;
+<wam-prism language="javascript" ngPreserveWhitespaces
+    ><!-- htmlmin:ignore --><!-- prettier-ignore -->//...
+const iirFilter = new IIRFilterNode(audioContext, &lbrace;
     feedback: new Float32Array([ /* ... */ ]),
     feedforward: new Float32Array([ /* ... */ ])
-&#125;);
+&rbrace;);
 
 valuesBufferSource
     .connect(iirFilter)
     .connect(audioContext.destination);
-//...<!-- htmlmin:ignore --></wam-prism>
+//...<!-- htmlmin:ignore --></wam-prism
+>

@@ -1,11 +1,13 @@
 <h2>Addition <span>(WAA boilerplate 2)</span></h2>
-<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->// ...
+<wam-prism language="javascript" ngPreserveWhitespaces
+    ><!-- htmlmin:ignore --><!-- prettier-ignore -->// ...
 audioContext
     .startRendering()
-    .then((renderedBuffer) =&gt; &#123;
+    .then((renderedBuffer) =&gt; &lbrace;
         const results = new Float32Array(values.length);
 
         renderedBuffer.copyFromChannel(results, 0);
 
         return results;
-    &#125;);<!-- htmlmin:ignore --></wam-prism>
+    &rbrace;);<!-- htmlmin:ignore --></wam-prism
+>

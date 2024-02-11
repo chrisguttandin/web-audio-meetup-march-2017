@@ -1,14 +1,16 @@
 <h2>Addition <span>(WAA boilerplate 1)</span></h2>
-<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->const values = new Float32Array([ /* ... */ ]);
+<wam-prism language="javascript" ngPreserveWhitespaces
+    ><!-- htmlmin:ignore --><!-- prettier-ignore -->const values = new Float32Array([ /* ... */ ]);
 const audioContext = new OfflineAudioContext(
     1, values.length, anyValidSampleRate
 );
-const valuesBuffer = new AudioBuffer(&#123;
+const valuesBuffer = new AudioBuffer(&lbrace;
     length: values.length, sampleRate: audioContext.sampleRate
-&#125;);
+&rbrace;);
 valuesBuffer.copyToChannel(values, 0);
-const valuesBufferSource = new AudioBufferSourceNode(audioContext, &#123;
+const valuesBufferSource = new AudioBufferSourceNode(audioContext, &lbrace;
     buffer
-&#125;);
+&rbrace;);
 valuesBufferSource.start(0);
-// ...<!-- htmlmin:ignore --></wam-prism>
+// ...<!-- htmlmin:ignore --></wam-prism
+>

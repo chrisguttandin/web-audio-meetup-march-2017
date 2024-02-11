@@ -1,14 +1,16 @@
 <h2>Subtraction (WAA)</h2>
-<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->//...
-const constantSource = new ConstantSourceNode(audioContext, &#123;
+<wam-prism language="javascript" ngPreserveWhitespaces
+    ><!-- htmlmin:ignore --><!-- prettier-ignore -->//...
+const constantSource = new ConstantSourceNode(audioContext, &lbrace;
     offset: 0.7
-&#125;);
+&rbrace;);
 constantSource.start(0);
-const gain = new GainNode(audioContext, &#123;
+const gain = new GainNode(audioContext, &lbrace;
     gain: -1
-&#125;);
+&rbrace;);
 valuesBufferSource.connect(audioContext.destination);
 constantSource
     .connect(gain)
     .connect(audioContext.destination);
-//...<!-- htmlmin:ignore --></wam-prism>
+//...<!-- htmlmin:ignore --></wam-prism
+>

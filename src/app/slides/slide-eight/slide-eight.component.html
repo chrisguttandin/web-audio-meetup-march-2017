@@ -1,10 +1,12 @@
 <h2>Addition (WAA)</h2>
-<wam-prism language="javascript" ngPreserveWhitespaces><!-- htmlmin:ignore -->//...
-const constantSource = new ConstantSourceNode(audioContext, &#123;
+<wam-prism language="javascript" ngPreserveWhitespaces
+    ><!-- htmlmin:ignore --><!-- prettier-ignore -->//...
+const constantSource = new ConstantSourceNode(audioContext, &lbrace;
     offset: 0.3
-&#125;);
+&rbrace;);
 constantSource.start(0);
 
 valuesBufferSource.connect(audioContext.destination);
 constantSource.connect(audioContext.destination);
-//...<!-- htmlmin:ignore --></wam-prism>
+//...<!-- htmlmin:ignore --></wam-prism
+>
