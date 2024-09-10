@@ -127,7 +127,7 @@
         "url": "https://github.com/chrisguttandin/web-audio-meetup-march-2017.git"
     },
     "scripts": {
-        "prepare": "husky install",
+        "prepare": "husky",
         "test": "grunt lint && grunt test"
     },
     "version": "0.8.68"
