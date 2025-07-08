@@ -70,7 +70,7 @@ for (let slide = 1; slide < 30; slide += 1) {
                     env.CI === 'true' &&
                     env.IS_SMOKE_TEST === 'true' &&
                     browserName === 'chromium' &&
-                    [8, 10, 11, 12, 13, 14, 15, 18, 20].includes(slide)
+                    [5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 18, 20, 23, 24].includes(slide)
                 ) {
                     await expect(page).not.toHaveScreenshot(name, {
                         fullPage: true
