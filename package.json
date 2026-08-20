@@ -99,7 +99,7 @@
         "husky": "^9.1.7",
         "lint-staged": "^17.3.0",
         "load-grunt-config": "^4.0.1",
-        "mocha": "^11.7.6",
+        "mocha": "^11.8.0",
         "prettier": "^3.9.4",
         "puppeteer": "^24.43.1",
         "rimraf": "^6.1.3",
